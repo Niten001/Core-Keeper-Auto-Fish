@@ -48,6 +48,20 @@ Loop {
                     Ry2 := 1152
                     Mx := 2100
                     My := 600
+                } else If (WinH == 2160) {
+                    Rx1 := 1511
+                    Ry1 := 1663
+                    Rx2 := 2323
+                    Ry2 := 1737
+                    Mx := 3160
+                    My := 1060
+                } else If (WinH == 1050) {
+                    Rx1 := 641
+                    Ry1 := 810
+                    Rx2 := 1038
+                    Ry2 := 846
+                    Mx := 1444
+                    My := 500
                 } else {
                     MsgBox, 0, % "Core Keeper Auto Fish - Core Keeper invalid window size.", % "Core Keeper Auto Fish only currently works on window sizes of:`n  - 1080 px`n  - 1440 px`n`nFeel free to help update this program to support your window size."
                     toggle := 0
