@@ -1,7 +1,7 @@
 ; -------------------------------------------------------------------------------- ;
 ;  Core Keeper Auto Fish AutoHotKey script
-;  Version: 0.0.1
-;  Last Updated: 2022/04/11
+;  Version: 0.0.3
+;  Last Updated: 2022/04/12
 ;  Author: Tim Martin
 ; -------------------------------------------------------------------------------- ;
 
@@ -12,7 +12,7 @@ Rx1 := 0
 Ry1 := 0
 Rx2 := 0
 Ry2 := 0
-delay := 12000
+delay := 12400
 stage := 0
 time := A_TickCount
 
@@ -26,7 +26,7 @@ Loop {
     While toggle {
         If (isOpen and handleSubmit) {
             Gui, Submit
-            delay := Floor(12000 * (1 - (baitSkill * 0.05)))
+            delay := Floor(12400 * (1 - (baitSkill * 0.05)))
             handleSubmit := 0
             isOpen := 0
         }
@@ -120,7 +120,7 @@ Loop {
                         time := A_TickCount
                     }
 
-                    if (stage == 5 and A_TickCount > time + 100) {
+                    if (stage == 5 and A_TickCount > time + 500) {
                         stage := 0
                     }
                     
