@@ -6,11 +6,5 @@ Built using [AutoHotKey](https://www.autohotkey.com/) an open-source scripting l
 
 Download the latest release [here](https://github.com/Niten001/Core-Keeper-Auto-Fish/releases/download/0.0.3/CoreKeeperAutoFish_0-0-3.exe) and run by pressing `Ctrl` + `Shift` + f
 
-## Currently Supported Display Resolutions
-* 1920 x 1080
-* 2560 x 1440
-* 3840 x 2160
-* 1680 x 1050
-
 ## Thanks to
 * [Fish icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/fish)
